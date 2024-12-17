@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{9C95B5E3-58D5-4AA7-811F-FB3D1C57ECAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Infastructure", "2.Infastructure", "{061AB90A-17E6-4EE1-BAFF-34BB12A70F02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.API", "3.API", "{54620AF4-F888-4D3D-8310-2AAE6FB7F46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTWGraphAccess.Domain", "WTWGraphAccess.Domain\WTWGraphAccess.Domain.csproj", "{D4AFB230-0606-4CD8-9597-4C040328B573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTWGraphAccess.Core", "WTWGraphAccess.Core\WTWGraphAccess.Core.csproj", "{944A52DE-AC47-4233-90F2-3AB4433565E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTWGraphAccess.Persistence", "WTWGraphAccess.Persistence\WTWGraphAccess.Persistence.csproj", "{FBF5602A-24F2-4187-9BC2-597A7C95D45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTWGraphAccess.Api", "WTWGraphAccess.Api\WTWGraphAccess.Api.csproj", "{3C378348-A2CE-4E01-8055-0989A95B35F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4AFB230-0606-4CD8-9597-4C040328B573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AFB230-0606-4CD8-9597-4C040328B573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AFB230-0606-4CD8-9597-4C040328B573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AFB230-0606-4CD8-9597-4C040328B573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944A52DE-AC47-4233-90F2-3AB4433565E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944A52DE-AC47-4233-90F2-3AB4433565E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944A52DE-AC47-4233-90F2-3AB4433565E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944A52DE-AC47-4233-90F2-3AB4433565E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF5602A-24F2-4187-9BC2-597A7C95D45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF5602A-24F2-4187-9BC2-597A7C95D45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF5602A-24F2-4187-9BC2-597A7C95D45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF5602A-24F2-4187-9BC2-597A7C95D45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C378348-A2CE-4E01-8055-0989A95B35F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C378348-A2CE-4E01-8055-0989A95B35F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C378348-A2CE-4E01-8055-0989A95B35F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C378348-A2CE-4E01-8055-0989A95B35F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4AFB230-0606-4CD8-9597-4C040328B573} = {9C95B5E3-58D5-4AA7-811F-FB3D1C57ECAF}
+		{944A52DE-AC47-4233-90F2-3AB4433565E2} = {9C95B5E3-58D5-4AA7-811F-FB3D1C57ECAF}
+		{FBF5602A-24F2-4187-9BC2-597A7C95D45E} = {061AB90A-17E6-4EE1-BAFF-34BB12A70F02}
+		{3C378348-A2CE-4E01-8055-0989A95B35F2} = {54620AF4-F888-4D3D-8310-2AAE6FB7F46A}
+	EndGlobalSection
+EndGlobal
