@@ -69,6 +69,10 @@ query {
     department
     annualSalary
   }
+}
+
+
+query {
   employeebydepartment(department: "Finance") 
   {
     employeeID
