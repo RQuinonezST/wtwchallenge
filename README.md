@@ -24,12 +24,12 @@ Open the folder :open_file_folder: "2. ETL Python Script".
 *Configuration Example:*
 ~~~~
 [SourceDB]
-driver = {ODBC Driver 18 for SQL Server}
+driver = {ODBC Driver 17 for SQL Server}
 server = .
 database = SourceDB
 
 [TargetDB]
-driver = {ODBC Driver 18 for SQL Server}
+driver = {ODBC Driver 17 for SQL Server}
 server = .
 database = TargetDB
 ~~~~
