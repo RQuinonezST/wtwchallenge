@@ -11,7 +11,7 @@ namespace WTWGraphAccess.Api.GraphQL.Types
             Name = nameof(TransformedEmployee);
             Description = "Transformed Employee information";
 
-            Field(b => b.EmployeeID, type: typeof(IdGraphType)).Description("Employee's ID");
+            Field(b => b.EmployeeID, type: typeof(IntGraphType)).Description("Employee's ID");
             Field(b => b.FullName, type: typeof(StringGraphType)).Description("Employee's First and Last name");
             Field(b => b.Department, type: typeof(StringGraphType)).Description("Employee's Department");
             Field(b => b.AnnualSalary, type: typeof(DecimalGraphType)).Description("Employee's Annual Salary");
