@@ -7,3 +7,4 @@
 *.cache
 *.csproj.user
 *.DS_Store
+__pycache__/
